@@ -110,7 +110,7 @@ $(function() {
         });
 
         it('Load completed', function() {
-            expect($('.feed').length).not.toEqual(0);
+            expect($('.feed .entry').length).not.toEqual(0);
         });
     });
 //
